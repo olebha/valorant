@@ -1,0 +1,331 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Montserrat', sans-serif;
+  
+
+ }
+
+ .header {
+     background: url("img/Group\ 1\ \(1\).png") center/cover no-repeat;
+     padding: 303px 0;
+     background-color: #1F2326;
+     overflow: hidden;
+
+ }
+
+ .header-container {
+     width: 80%;
+     margin: auto;
+     border-radius: 50px;
+
+     
+ }
+
+ .header-content {
+     background: url("img/background.png") center/cover no-repeat;
+     border-radius: 50px;
+     position: relative;
+ }
+
+ .card {
+
+     background-color: #1F2326;
+     width: 20%;
+     border-radius: 10px 0 0 0;
+     position: relative;
+     border: 2px solid #1F2326;
+     margin: 120px 50px;
+ }
+
+ .card-img {
+     width: 100%;
+ }
+
+ .icons {
+     display: flex;
+     justify-content: space-between;
+     background: #1F2326;
+     border: 2px solid #F8F8F8;
+     width: 100%;
+     padding: 19px 42px;
+     position: absolute;
+     bottom: -5%;
+     right: -10%;
+ }
+
+ .icons img {
+     height: 37px;
+ }
+
+ .card-wraper {
+     position: absolute;
+     right: 100px;
+     top: 150px;
+     transform: rotate(90deg);
+ }
+
+ .card-title {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 72px;
+     line-height: 94px;
+     letter-spacing: 0.1em;
+
+     color: transparent;
+     -webkit-text-stroke: 2px #ffffff;
+     text-stroke: 2px #ffffff;
+     -webkit-background-clip: text;
+     background-clip: text;
+ }
+
+ .card-sub-title {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 31px;
+     letter-spacing: 0.1em;
+     color: #FF4656;
+ }
+
+ .menu {
+     width: 100%;
+     padding: 53px 43px 39px 43px;
+     background: #1F2326;
+     border-radius: 50px 50px 0 0; 
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     z-index: 45208976;
+ }
+
+ .logo {
+     width: 15%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .logo-img-1 {
+     height: 40px;
+ }
+
+ hr {
+     width: 1px;
+ }
+
+ .nav {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     width: 60%;
+ }
+
+ .menu-item {
+     text-decoration: none;
+     color: white;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 17px;
+     text-align: center;
+     margin-right: 10px;
+ }
+ .profile{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.profile-img-1{
+    height: 40px;
+    border-radius: 50%;
+}
+.profile-img-2{
+    width: 7px;
+    height: 7px;
+    
+}
+.bg{
+    background: #ff46566e;
+    border-radius: 50px 50px 0 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 8%;
+}
+.last-card{
+    background: white;
+}
+.last-card h2{
+    color: transparent;
+    -webkit-text-stroke: 2px #000000;
+    text-stroke: 2px #000000;
+    -webkit-background-clip: text;
+    background-clip: text;
+} 
+.icons4{
+    background-color: white;
+    border-color: black;
+}
+.card-wraper2{
+    right: 180px;
+}
+.card-wraper3{
+    right: 180px;
+}
+.card-wraper4{
+    right: 180px;
+}
+.footer{
+    width: 100%;
+    padding: 53px 43px 39px 43px;
+    background: #ffffff;
+    border-radius: 0px 0px 50px 50px; 
+}
+.skills{
+    width: 2000px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    position: relative;
+    z-index: 100;
+    left: -100px;
+    top: 30px;
+}
+.skill-card{
+    width: 400px;
+    padding: 31px 72px 31px 58px;
+    background: white;
+    border-radius: 50px 0 0 0;
+    border:2px solid black;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    display: inline-block;
+    height: 400px;
+    vertical-align: top;
+    margin-right: 50px;
+}
+.skill-title{
+ font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 52px;
+color: #C4C4C4;
+margin-bottom: 20px;
+}
+.skill-sub-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000; 
+    margin-bottom: 32px;
+}
+.skill-text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.1em;
+color: #1F2326;
+}
+.skill-card4{
+   width: 300px; 
+   background: white;
+   border-radius: 50px 0 0 0;
+   border:2px solid black;
+   text-align: center;
+   display: inline-block;
+   vertical-align: top;
+   position: relative;
+   height: 400px;
+}
+.left, .right{
+    width: 45%;
+    display: inline-block;
+}
+.right{
+    position: relative;
+}
+.square{
+    width: 190px;
+    height: 190px;
+    background: #FF4656;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.right img{
+    width: 167px;
+    height: 167px;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+.skill-card4-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+@media(max-width:800px){
+    .header-container{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    .cards{
+        flex-direction: column;
+        position: static;
+    }
+    .card-wraper{
+        position: static;
+        transform: rotate(0deg);
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .skill-card{
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+    .skills{
+        width: 100%;
+        position: static;
+    }
+    .skill-card4{
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .skill-card4-img{
+        height: 50px;
+    }
+}
+ 
