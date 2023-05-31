@@ -303,9 +303,14 @@ color: #1F2326;
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
+        padding: 0;
+        
     }
     .logo{
+        margin: auto;
         margin-bottom: 20px;
+        width: 50%;
+
     }
     .skill-card{
         display: block;
@@ -327,5 +332,15 @@ color: #1F2326;
     .skill-card4-img{
         height: 50px;
     }
+    .nav{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .profile{
+        width: 20%;
+        margin: auto;
+    }
+    
 }
  
